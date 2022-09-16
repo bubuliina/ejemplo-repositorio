@@ -1,0 +1,41 @@
+body{
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 150px;
+    background-color: lightblue;
+}
+.main {
+    display: flex;
+    height: 150px;
+    text-align: center;
+}
+
+nav{
+    background-color: yellow;
+    width: 25%;
+}
+
+article{
+    background-color: lightsalmon;
+    width: 50%;
+}
+
+aside{
+    background-color: rgb(78, 43, 206);
+    width: 25%;
+
+}
+
+footer{
+    background-color: red;
+    height: 150px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}

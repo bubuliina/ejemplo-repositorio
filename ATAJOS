@@ -1,0 +1,23 @@
+
+<!-- ATAJOS DEL TECLADO -->
+<!-- para duplicar seleccion shift + alt + flecha arr o ab
+   
+    para mover una linea alt + flecha arr o ab
+   
+    para seleccionar varios elementos y modif todos a la vez alt + click
+   
+    para abrir un nuevo documento shift + n
+   
+    para ver o ocultar la barra de la izq shift + b 
+   
+    para escribir un bloque entero, para poner la class .nombredelaclass
+   
+    si pongo el signo >loquevaadentrodeldiv ej .nombredelaclass>h1
+   
+    si quiero poner mas cosas en esa class, pongo el signo + ej:
+   
+    .nombredelaclass>h1+img-->
+
+    /* forma abreviada de escribir margenes:
+top right bottom left en sentido de las agujas del reloj */
+

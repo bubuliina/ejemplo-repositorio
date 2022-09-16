@@ -1,0 +1,14 @@
+.noticia {
+    background-color: aquamarine;
+}
+ .noticia__titulo {
+    font-size: 25px;
+    color:rosybrown;
+ }
+ .noticia__titulo--mayus {
+    text-transform: uppercase;
+    font-style: italic;
+ }
+ .noticia--destacada {
+    background-color: blueviolet;
+ }

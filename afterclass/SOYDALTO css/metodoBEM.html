@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aprendiendo CSS</title>
+        <link rel="stylesheet" type="text/css" href="estilo3.css">
+    </head>
+        <body>
+            <h1>Mi primer titulo editado en CSS</h1>
+        <div class="contact-form">
+            <input type="text" class="contact-form__input--active">
+            <input type="text" class="contact-form__input">
+            <input type="text" class="contact-form__input">
+            <input type="text" class="contact-form__input">   
+            <input type="password" class="contact-form__input">
+        </div>
+<!-- se pone active en el que quiero modificar -->
+        <div class="contact-form">
+            <input type="text" class="contact-form__input">
+            <input type="text" class="contact-form__input">
+            <input type="text" class="contact-form__input">
+            <input type="text" class="contact-form__input">   
+            <input type="password" class="contact-form__input">
+        </div>
+    <!-- por la cascada, si en css pongo fisrt child, seria el primer
+    input que aparece en la lista. por defecto lo selecciona pq es el primero -->
+        <div class="contact-form">
+            <p class="contact-form">
+                <h2 class="contact-form__p-h2"></h2>
+            </p>
+        </div>
+        <div class="suscriber-form">
+            <p class="suscriber-form">
+                <h2 class="suscriber-form__p-h2"></h2>
+            </p>
+        </div>
+        <!-- esto de h2 se hace por bloques -->
+</body>
+</html> 
+

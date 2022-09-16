@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#grilla {
+   height: 100%;
+   display: grid;
+   grid-template-areas: 
+   "header"
+   "nav"
+   "productos"
+   "servicios"
+   "publicidad"
+   "footer";
+   grid-template-columns: auto;
+   grid-template-rows: repeat(6, 200px);
+ }
+
+ @media screen and (min-width: 600px){
+    #grilla {
+       grid-template-areas:
+         "nav header header"
+         "nav productos publicidad"
+         "nav servicios publicidad"
+         "nav footer footer";
+       grid-template-rows: 100px 1fr 1fr 75px; 
+       grid-template-columns: 20% auto 15%;
+    }
+ }
+
+
+ .border {
+    border: 1px solid black;
+ }
+ 
+ header {
+    grid-area: header;
+ }
+ footer {
+    grid-area: footer;
+ }
+ section#productos {
+    grid-area: productos;     
+ }
+ section#servicios {
+    grid-area: servicios;     
+ }
+ nav {
+    grid-area: nav;
+ }
+ aside {
+    grid-area: publicidad;
+ }
+ 
+  

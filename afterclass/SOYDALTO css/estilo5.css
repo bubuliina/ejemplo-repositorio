@@ -1,0 +1,19 @@
+* {
+    background-color:antiquewhite ;
+}
+
+h1 {
+font-size: 2em;
+font-family: sans-serif,;
+line-height: 2;
+font-weight: 400;
+color: blueviolet;
+}
+/* 1 line height significa el ancho y altura de la letra.
+si pongo 2 line heigt es medio para arriba y medio para
+abajo, ocupa el doble del tamaño de la letra, pero
+lo del medio queda centrado
+ */
+/* como poner una tipografia de google fonts:
+click derecho, copiar link de archivo css y 
+pegar en el head del wireframe VERR ESTO */

@@ -1,0 +1,67 @@
+    .padre-flex1{
+    display: flex;
+    flex-direction:row;
+    /* row es fila, row reverse fila de atras para 
+    adelante, colum es columna vertical, y colum
+    reverse es columna del ultimo al primero en 
+    vertical */
+    flex-wrap: wrap;
+    /* wrap es para que se ocupe todo el ancho de la
+    caja, no wrap hace que quede todo en la misma linea */
+    border: 1px solid blue;
+    padding: 15+px;
+}   
+
+.hijo {
+    border: 1px solid red
+}
+
+.padre-flex2{
+    border: 1px solid orchid;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* justify content sirve para poner en
+    donde yo quiera los div, separarlos
+    entre si y varias cosas mas (PROBAR) */
+}
+
+.padre-flex3 {
+    border: 1px solid rgb(23, 202, 53);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 50px;
+    /* lo de justify content es
+    lo mismo para columnas pero es necesario
+    definir el alto de la caja para verlo */
+}
+/* para poner una columna al lado de la otra
+si tengo dos divs, los encierro en otro div padre,
+y en css pongo display:flex y flex direcition: row */
+
+.padre-flex4 {
+    border: 5px solid rgb(231, 153, 7);
+    padding: 0px;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    ; 
+    /* cons stretch se rellena la caja a lo 
+    ancho y alto por defecto- baseline se pone
+    todas en linea de acuerdo al contenido,
+    si son diferentes boxes de diferentes tamaños
+    y todas tienen ej num adentro, se alinean las 
+    bases de los numeros */
+}
+/* con JUSTIFY CONTENT alineo HORIZONTALMENTE, 
+    igual depende del padre, si es horizontal o 
+    vertical, sigue el mismo patron.
+    con ALIGN ITEMS alineo VERTICALMENTE, en 
+    realidad depende de como este el padre, se
+    va a mover en forma perpendicular, si esta
+    horizontal, se mueve vertical, y viceversa*/
+

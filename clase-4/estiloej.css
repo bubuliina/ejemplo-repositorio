@@ -1,0 +1,11 @@
+p {
+   color: #0033ff;
+   font-family: 'Silkscreen', cursive;
+    font-size: 12px;
+    letter-spacing: 15px;
+    }
+    /* letter spacing es espacio entre palabras, lo de copiar una
+    fuente de la web es copiar los enlaces de html en head y en css */
+    body {
+        background-image:none
+    }

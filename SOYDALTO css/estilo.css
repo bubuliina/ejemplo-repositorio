@@ -1,0 +1,30 @@
+selector {
+    propiedad:valor;
+}
+.titulo-h2 {
+    color: red;
+}
+#id-element {
+    color: blue;
+}
+[rancio="sii"] {
+    color: yellow;
+}
+h2 {
+    color: pink;
+}
+h2 p {
+    color:blueviolet;
+}
+.h3-class p span {
+    color:aquamarine
+}
+p:hover {
+    color:blue;
+}
+b {
+    color:red;
+}
+b {
+    color:blue
+}

@@ -1,0 +1,112 @@
+div {
+    background-color: blueviolet;
+}
+
+.primero{
+    width: 100px;
+    height: 300px;
+    overflow:scroll;
+}
+/* forma abreviada de escribir margenes:
+top right bottom left en sentido de las agujas del reloj */
+
+div{
+    margin: 20px 10px 12px 300px;
+}
+
+.segundo {
+    color: rgb(230, 209, 23);
+    width: 300px;
+    height: 300px;
+
+    border-top: 5px red solid;
+    border-right: 10px green dashed;
+    border-bottom: 20px pink dotted;
+    border-left: 15px blue solid;
+}
+
+.tercero {
+    border: 5px red solid;
+    margin: 20%;
+    /* el porcentaje se pone para centrar la img
+    en el navegador */
+}
+
+.inline {
+    display: inline;
+}
+
+.invisible {
+    display: none;
+}
+
+.two {
+    position: relative;
+    top:40px;
+    left: 40px;
+}
+
+/* la posicion relativa posiciona al 2do p
+en los margenes q le diga EN RELACION al 1er p */
+
+.three {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    bottom: 0px;
+}
+/* si pongo valor cero, va a los bordes
+del navegador */
+
+h1 {
+    position:sticky;
+    top: 20px;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+    }
+
+li{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+}
+
+ul ul {
+    position: absolute;
+    display:none;
+}
+
+ul ul li {
+    display:block
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+h3 {
+    background-color: #00ffff;
+    position: absolute;
+    z-index: 1;
+}
+/* EL VALOR DE Z INDEX QUE SEA 1 SE VA A SOBREPONER
+SOBRE EL QUE NO TIENE NADA */
+
+h4 {
+    background-color: brown;
+    color: bisque;
+    position: absolute;
+}
+
+
+h5 {
+    color: green;
+}
+
+body {
+    background-image: url(./fondo.jpg);
+}
